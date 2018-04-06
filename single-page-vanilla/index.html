@@ -1,0 +1,56 @@
+<head>
+   <style>
+      :root {
+      --example: black;
+      }
+      body {
+      font-family: monospace;
+      font-size: 24px;
+      }
+      .example{
+      color: var(--example);
+      }
+   </style>
+   <script>
+      function myFunction() {
+        let today = new Date();
+        let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+        let day = days[today.getDay()];
+        let dd = today.getDate();
+        let mm = today.getMonth()+1; //January is 0!
+        let yyyy = today.getFullYear();
+
+        if(dd<10) {
+            dd = '0'+dd
+        } 
+
+        if(mm<10) {
+            mm = '0'+mm
+        } 
+
+        today = mm + '/' + dd + '/' + yyyy;
+
+        document.getElementById("demo1").innerHTML = 'today is a ' + day + ', ' + today;
+      }
+      function getRandomColor() {
+        let letters = '0123456789ABCDEF';
+        let color = '#';
+        for (let i = 0; i < 6; i++) {
+          color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+      }
+      function setStyle(){
+        let color = getRandomColor();
+        console.log(color);
+        document.documentElement.style.setProperty('--example', color);
+      }
+      window.onload = myFunction;
+   </script>
+   <title>single-page-vanilla</title>
+</head>
+<body>
+    <p id="demo1"></p>
+    <button onclick="setStyle()">Click me to change color</button>
+    <p id="demo2">Hello <span class='example'>World</span></p>
+</body>
