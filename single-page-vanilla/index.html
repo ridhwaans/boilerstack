@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <head>
    <style>
       :root {
@@ -12,25 +13,22 @@
       }
    </style>
    <script>
+      String.prototype.format = function() {
+        a = this;
+        for (k in arguments) {
+          a = a.replace("{" + k + "}", arguments[k])
+        }
+        return a
+      }
       function myFunction() {
         let today = new Date();
         let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
         let day = days[today.getDay()];
-        let dd = today.getDate();
-        let mm = today.getMonth()+1; //January is 0!
+        let dd = ('0' + today.getDate()).slice(-2);
+        let mm = ('0' + today.getMonth()+1).slice(-2);
         let yyyy = today.getFullYear();
 
-        if(dd<10) {
-            dd = '0'+dd
-        } 
-
-        if(mm<10) {
-            mm = '0'+mm
-        } 
-
-        today = mm + '/' + dd + '/' + yyyy;
-
-        document.getElementById("demo1").innerHTML = 'today is a ' + day + ', ' + today;
+        document.getElementById("demo1").innerHTML = "Today is a {0}, {1}/{2}/{3}".format(day, mm, dd, yyyy);
       }
       function getRandomColor() {
         let letters = '0123456789ABCDEF';
@@ -38,11 +36,7 @@
         for (let i = 0; i < 6; i++) {
           color += letters[Math.floor(Math.random() * 16)];
         }
-        return color;
-      }
-      function setStyle(){
-        let color = getRandomColor();
-        console.log(color);
+        console.log('color ' + color);
         document.documentElement.style.setProperty('--example', color);
       }
       window.onload = myFunction;
@@ -51,6 +45,6 @@
 </head>
 <body>
     <p id="demo1"></p>
-    <button onclick="setStyle()">Click me to change color</button>
+    <button onclick="getRandomColor()">Click me to change color</button>
     <p id="demo2">Hello <span class='example'>World</span></p>
 </body>
