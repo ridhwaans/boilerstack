@@ -9,12 +9,6 @@ const express = require('express');
 const app = express();
 const port = process.env.PORT || 5000;
 
-var lib = require('./index.js');
-var config = yaml.safeLoad(fs.readFileSync('./config-sample.yml'));
-
-var client = new lib.ApiClient(config.service.api, config.service.key, true);
-var data = require('./data-sample.json');
-
 app.get('/api/greeting', (req, res) => {
   let greeting = { greeting: 'Hello World'};
   res.json(greeting);

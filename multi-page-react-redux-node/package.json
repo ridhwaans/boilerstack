@@ -1,0 +1,26 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "author": "ridhwaans",
+  "scripts": {
+    "client": "cd client && yarn dev",
+    "dev": "nodemon server.js",
+    "prod": "node server",
+    "app": "concurrently --kill-others-on-fail \"yarn prod\" \"yarn client\""
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "express": "^4.16.2",
+    "figlet": "^1.2.0",
+    "js-yaml": "^3.10.0",
+    "jssha": "^2.3.1",
+    "node-dir": "^0.1.17",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "underscore": "^1.8.3",
+    "yarn": "^1.5.1"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1"
+  }
+}

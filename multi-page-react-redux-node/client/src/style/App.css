@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:Light);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+@import url(https://fonts.googleapis.com/css?family=Cousine);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Lato:100,700);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+.coming-soon {
+  text-align: center;
+  font-family: 'Montserrat';
+  font-size: 32px;
+  font-weight: 700;
+  display: block;
+}
+
+/* ResultsBar */
+.results-bar-div {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}

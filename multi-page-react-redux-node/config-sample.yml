@@ -1,0 +1,5 @@
+# Server-side configs
+service:
+  path  : '/path/to/data/directory'
+  api   : 'api.site.com/v1'
+  key   : '<api_key>'

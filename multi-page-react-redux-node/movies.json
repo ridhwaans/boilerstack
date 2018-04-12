@@ -1,0 +1,139 @@
+{
+  "movies": [
+    {
+      "adult": false,
+      "backdrop_path": "/mDhq855QfsWyKX6pp01afZlQ2Jt.jpg",
+      "belongs_to_collection": {
+        "id": 8091,
+        "name": "Alien Collection",
+        "poster_path": "/iVzIeC3PbG9BtDAudpwSNdKAgh6.jpg",
+        "backdrop_path": "/52Lhwd7srnktMFDYkfhtMoZdabT.jpg"
+      },
+      "budget": 11000000,
+      "genres": [
+        {
+          "id": 27,
+          "name": "Horror"
+        },
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        }
+      ],
+      "homepage": "https://www.facebook.com/alienanthology/",
+      "id": 348,
+      "imdb_id": "tt0078748",
+      "original_language": "en",
+      "original_title": "Alien",
+      "overview": "During its return to the earth, commercial spaceship Nostromo intercepts a distress signal from a distant planet. When a three-member team of the crew discovers a chamber containing thousands of eggs on the planet, a creature inside one of the eggs attacks an explorer. The entire crew is unaware of the impending nightmare set to descend upon them when the alien parasite planted inside its unfortunate host is birthed.",
+      "popularity": 34.086053,
+      "poster_path": "/2h00HrZs89SL3tXB4nbkiM7BKHs.jpg",
+      "production_companies": [
+        {
+          "id": 19747,
+          "logo_path": null,
+          "name": "Brandywine Productions",
+          "origin_country": ""
+        },
+        {
+          "id": 25,
+          "logo_path": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+          "name": "20th Century Fox",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        },
+        {
+          "iso_3166_1": "GB",
+          "name": "United Kingdom"
+        }
+      ],
+      "release_date": "1979-05-25",
+      "revenue": 104931801,
+      "runtime": 117,
+      "spoken_languages": [
+        {
+          "iso_639_1": "en",
+          "name": "English"
+        },
+        {
+          "iso_639_1": "es",
+          "name": "Español"
+        }
+      ],
+      "status": "Released",
+      "tagline": "In space no one can hear you scream.",
+      "title": "Alien",
+      "video": false,
+      "vote_average": 7.9,
+      "vote_count": 5524
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/unMc1jEyqCnzba976GviSFKGagt.jpg",
+      "belongs_to_collection": null,
+      "budget": 2200000,
+      "genres": [
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        }
+      ],
+      "homepage": null,
+      "id": 185,
+      "imdb_id": "tt0066921",
+      "original_language": "en",
+      "original_title": "A Clockwork Orange",
+      "overview": "Demonic gang-leader Alex goes on the spree of rape, mugging and murder with his pack of \"droogs\". But he's a boy who also likes Beethoven's Ninth and a bit of \"the old in-out, in-out\". He later finds himself at the mercy of the state and its brainwashing experiment designed to take violence off the streets.",
+      "popularity": 21.008751,
+      "poster_path": "/kgAi87gyx6b4oGJYSC36tVkJyJu.jpg",
+      "production_companies": [
+        {
+          "id": 88,
+          "logo_path": null,
+          "name": "Hawk Films",
+          "origin_country": ""
+        },
+        {
+          "id": 174,
+          "logo_path": "/6rFNo5taSC9i0Sxnl81nucQMsw9.png",
+          "name": "Warner Bros. Pictures",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "GB",
+          "name": "United Kingdom"
+        },
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "1971-12-18",
+      "revenue": 26589000,
+      "runtime": 136,
+      "spoken_languages": [
+        {
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Being the adventures of a young man whose principal interests are rape, ultra-violence and Beethoven.",
+      "title": "A Clockwork Orange",
+      "video": false,
+      "vote_average": 8.1,
+      "vote_count": 4507
+    }
+  ]
+}

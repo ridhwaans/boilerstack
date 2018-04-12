@@ -10,17 +10,18 @@ class Music extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      hello: []
+      greeting: []
     };
   }
 
   componentDidMount() {
-    utils.callApi('/api/hello')
-      .then(res => this.setState({ hello: res }))
+    utils.callApi('/api/greeting')
+      .then(res => this.setState({ greeting: res }))
       .catch(err => console.log(err));
   }
   
   render() {
+    console.log(JSON.stringify(this.state.greeting))
     return (
       <div>
       <NavBar type={1}/>

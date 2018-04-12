@@ -1,4 +1,4 @@
-# multi-page-react-node-app
+# multi-page-react-redux-node-app
 
 <p align="center">
   <a href="https://github.com/ridhwaans/boilerstack/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat" alt="contributions"></a>
@@ -8,7 +8,7 @@
   <a href="https://github.com/ridhwaans/boilerstack/blob/master/LICENSE"><img src="https://img.shields.io/github/license/ridhwaans/boilerstack.svg" alt="license"></a>
 </p>
 
-<h3 align="center"> This is a multi-page-react-node-app </h3>
+<h3 align="center"> This is a multi-page-react-redux-node-app </h3>
 
 # Setup
 
@@ -21,13 +21,17 @@ By default, `5000` is the nodejs server port, `3000` is the react client port
 ### Server-side
 
 **GET** `/api/greeting`  
+**GET** `/api/movies`  
+**GET** `/api/music`
 
 ### Client-side
 
 `/movies`, `/music`, `/books`, `/comics`, `/podcasts`, `/tv`
 
 # Powered by
-<p><img src="media/react-logo.svg" width="200" height="150">&emsp;<img src="media/node-logo.svg" width="150" height="150"></p>
+<p><img src="media/react-logo.svg" width="200" height="150">&emsp;
+	<img src="media/redux-logo.svg" width="200" height="150">&emsp;
+	<img src="media/node-logo.svg" width="150" height="150"></p>
 <p><img src="media/bootstrap-logo.svg" width="200" height="150">&emsp;<img src="media/webpack-logo.svg" width="150" height="150"></p>
 
 # License

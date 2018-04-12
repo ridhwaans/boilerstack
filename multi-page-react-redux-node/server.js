@@ -13,7 +13,12 @@ var lib = require('./index.js');
 var config = yaml.safeLoad(fs.readFileSync('./config-sample.yml'));
 
 var client = new lib.ApiClient(config.service.api, config.service.key, true);
-var data = require('./data-sample.json');
+
+var moviesData = require('./movies.json');
+
+app.get('/api/movies', (req, res) => {
+  res.json(moviesData.movies);
+});
 
 app.get('/api/greeting', (req, res) => {
   let greeting = { greeting: 'Hello World'};

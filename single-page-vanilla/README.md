@@ -1,2 +1,2 @@
-# single-page-vanilla
+# single-page-vanilla-app
 
