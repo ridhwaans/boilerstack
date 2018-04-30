@@ -24,7 +24,7 @@ By default, `5000` is the nodejs server port, `3000` is the react client port
 
 ### Client-side
 
-`/movies`, `/music`, `/books`, `/comics`, `/podcasts`, `/tv`
+`/movies`, `/music`, `/books`, `/comics`, `/podcasts`, `/tv`, `/disclaimer`
 
 # Powered by
 <p><img src="media/react-logo.svg" width="200" height="150">&emsp;<img src="media/node-logo.svg" width="150" height="150"></p>

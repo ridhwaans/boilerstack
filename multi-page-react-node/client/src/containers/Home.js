@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import ReactDOM from 'react-dom'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import FooterBar from '../components/FooterBar'
 
 class Home extends Component {
 
@@ -29,9 +28,7 @@ class Home extends Component {
         </p>
       </main>
       <footer className="mastfoot mt-auto">
-        <div className="inner">
-          <p>Made by <a href="https://github.com/ridhwaans">@ridhwaans</a></p>
-        </div>
+        <FooterBar/>
       </footer>
       </div>
       </div>

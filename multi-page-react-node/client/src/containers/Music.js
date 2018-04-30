@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
-import ReactDOM from 'react-dom'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
 import NavBar from '../components/NavBar'
 import ResultsBar from '../components/ResultsBar'
+import FooterBar from '../components/FooterBar'
 import style from '../style/App.css'
 import * as utils from '../utils/utils.js'
 
@@ -27,6 +26,7 @@ class Music extends Component {
       <NavBar type={1}/>
       <br/>
       <ResultsBar type={1}/>
+      <FooterBar/>
       </div>
     );
   }

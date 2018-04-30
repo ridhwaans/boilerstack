@@ -1,6 +1,4 @@
 import React, { Component } from 'react'
-import ReactDOM from 'react-dom'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
@@ -8,6 +6,7 @@ import * as moviesActions from '../actions/MoviesActions'
 
 import NavBar from '../components/NavBar'
 import ResultsBar from '../components/ResultsBar'
+import FooterBar from '../components/FooterBar'
 import * as utils from '../utils/utils.js'
 
 class Movies extends Component {
@@ -29,6 +28,7 @@ class Movies extends Component {
       <br/>
       <ResultsBar count={displayedMovies.length} type={0}/>
       <p>{JSON.stringify(displayedMovies)}</p>
+      <FooterBar/>
       </div>
     );
   }
