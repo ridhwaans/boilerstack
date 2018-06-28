@@ -21,6 +21,7 @@
     "yarn": "^1.5.1"
   },
   "devDependencies": {
-    "concurrently": "^3.5.1"
+    "concurrently": "^3.5.1",
+    "npm-check-updates": "^2.14.2"
   }
 }
