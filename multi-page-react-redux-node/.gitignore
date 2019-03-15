@@ -1,5 +1,9 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
+# lock files
+package-lock.json
+yarn.lock
+
 # dependencies
 node_modules/
 
