@@ -8,19 +8,19 @@
     "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
   },
   "dependencies": {
-    "bluebird": "^3.5.1",
-    "express": "^4.16.2",
-    "figlet": "^1.2.0",
-    "js-yaml": "^3.10.0",
+    "bluebird": "^3.5.3",
+    "express": "^4.16.4",
+    "figlet": "^1.2.1",
+    "js-yaml": "^3.13.0",
     "jssha": "^2.3.1",
     "node-dir": "^0.1.17",
-    "request": "^2.83.0",
-    "request-promise": "^4.2.2",
-    "underscore": "^1.8.3",
-    "yarn": "^1.5.1"
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "underscore": "^1.9.1",
+    "yarn": "^1.15.2"
   },
   "devDependencies": {
-    "concurrently": "^3.5.0",
-    "npm-check-updates": "^2.14.2"
+    "concurrently": "^4.1.0",
+    "npm-check-updates": "^3.1.2"
   }
 }

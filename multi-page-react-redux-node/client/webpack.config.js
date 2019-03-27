@@ -36,7 +36,7 @@ var config = {
             ]
         },
         {
-            test: /\.js$/,
+            test: /\.js$/i,
             use: [
                 { 
                     loader: 'babel-loader',
@@ -45,7 +45,7 @@ var config = {
             ],
             exclude: /(node_modules|bower_components)/
         },
-        {   test: /\.css$/,
+        {   test: /\.css$/i,
             use: [
                 {
                     loader: 'style-loader',
@@ -64,7 +64,7 @@ var config = {
             ]
         },
         {
-            test: /\.css$/,
+            test: /\.css$/i,
             use: [
                 {
                     loader: 'style-loader',
