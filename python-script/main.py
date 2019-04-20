@@ -3,7 +3,6 @@
 """
 Module Docstring
 """
-
 __author__ = 'Ridhwaan Shakeel'
 __email__ = 'shakeel.ridhwaan@gmail.com'
 __version__ = '1.0.0'

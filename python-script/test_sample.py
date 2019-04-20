@@ -5,8 +5,6 @@ You can auto-discover and run all tests with this command:
 
 Documentation: https://docs.pytest.org/en/latest/
 """
-
-
 def inc(x):
     return x + 1
 

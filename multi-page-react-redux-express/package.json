@@ -17,11 +17,11 @@
     "node-dir": "^0.1.17",
     "request": "^2.83.0",
     "request-promise": "^4.2.2",
-    "underscore": "^1.8.3",
-    "yarn": "^1.5.1"
+    "underscore": "^1.8.3"
   },
   "devDependencies": {
-    "concurrently": "^3.5.0",
-    "npm-check-updates": "^2.14.2"
+    "concurrently": "^3.5.1",
+    "npm-check-updates": "^2.14.2",
+    "yarn": "^1.5.1"
   }
 }
