@@ -1,0 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500);
+
+#title {
+	font-family: 'Roboto';
+	font-size: 24px;
+  	font-weight: 500;
+}
+
+ :local(.footer) {
+	font-family: 'Roboto';
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
